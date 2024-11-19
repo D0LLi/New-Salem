@@ -3,19 +3,6 @@
         "hash": {
             "sha256": "5090d3ea136299b8eaf241c2257d31f886eb34732cdc4a70f54d82ea2824aab1"
         },
-        "host-environment-markers": {
-            "implementation_name": "cpython",
-            "implementation_version": "3.5.2",
-            "os_name": "posix",
-            "platform_machine": "x86_64",
-            "platform_python_implementation": "CPython",
-            "platform_release": "4.4.0-17134-Microsoft",
-            "platform_system": "Linux",
-            "platform_version": "#285-Microsoft Thu Aug 30 17:31:00 PST 2018",
-            "python_full_version": "3.5.2",
-            "python_version": "3.5",
-            "sys_platform": "linux"
-        },
         "pipfile-spec": 6,
         "requires": {},
         "sources": [
@@ -78,10 +65,12 @@
         },
         "wheel": {
             "hashes": [
-                "sha256:80044e51ec5bbf6c894ba0bc48d26a8c20a9ba629f4ca19ea26ecfcf87685f5f",
-                "sha256:0a2e54558a0628f2145d2fc822137e322412115173e8a2ddbe1c9024338ae83c"
+                "sha256:7a95f9a8dc0924ef318bd55b616112c70903192f524d120acc614f59547a9e1f",
+                "sha256:ea041edf63f4ccba53ad6e035427997b3bb10ee88a4cd014ae82aeb9eea77bb9"
             ],
-            "version": "==0.31.1"
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==0.38.1"
         }
     },
     "develop": {
